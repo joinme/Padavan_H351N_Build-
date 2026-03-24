@@ -112,7 +112,7 @@ jobs:
         run: |
           cd /opt/rt-n56u/trunk/configs/boards
           
-          cp -r newifi-mini h351n-usbprint
+          cp -r NEWIFI-MINI.config h351n-usbprint
           
           cat > h351n-usbprint/board.h << 'EOF'
           #ifndef __BOARD_H__
