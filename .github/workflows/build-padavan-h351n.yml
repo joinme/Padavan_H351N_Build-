@@ -9,12 +9,12 @@ on:
         default: false
         type: boolean
   
-  schedule:
-    - cron: '0 0 * * 0'
+  # schedule:
+  #   - cron: '0 0 * * 0'
   
-  push:
-    tags:
-      - 'v*'
+  # push:
+  #   tags:
+  #     - 'v*'
 
 env:
   ENABLE_CUPS: ${{ github.event.inputs.enable_cups || 'false' }}
